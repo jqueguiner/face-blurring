@@ -1,0 +1,10 @@
+flask
+requests
+numpy
+scipy>=0.17.0
+face_recognition_models
+Click>=6.0
+Pillow
+face_recognition
+opencv-python
+scikit-image
