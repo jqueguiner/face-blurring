@@ -9,7 +9,7 @@ git clone https://github.com/jqueguiner/face-blurring.git face-blurring
 
 Building Docker
 ```console
-cd programming-language-detection && docker build -t face-blurring -f Dockerfile .
+cd face-blurring && docker build -t face-blurring -f Dockerfile .
 ```
 
 Running Docker
