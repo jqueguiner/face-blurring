@@ -86,10 +86,6 @@ def process():
 
 if __name__ == '__main__':
     global upload_directory
-    global model, graph
-    global img_width, img_height
-    global class_names
-    
 
     upload_directory = '/src/upload/'
     create_directory(upload_directory)
