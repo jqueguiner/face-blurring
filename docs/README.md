@@ -4,7 +4,7 @@ You can build and run the docker using the following process:
 
 Cloning
 ```console
-gti clone https://github.com/jqueguiner/face-blurring.git face-blurring
+git clone https://github.com/jqueguiner/face-blurring.git face-blurring
 ```
 
 Building Docker
@@ -19,5 +19,5 @@ echo "http://$(curl ifconfig.io):5000" && docker run -p 5000:5000 -d face-blurri
 
 Calling the API
 ```console
-curl -X POST "http://MY_SUPER_API_IP:5000/process" -H "accept: application/json" -H "Content-Type: application/json" -d '{"url":"https://i.ibb.co/FqDSQF8/input.jpg"}'
+curl -X POST "http://MY_SUPER_API_IP:5000/process" -H "accept: image/*" -H "Content-Type: application/json" -d '{"url":"https://i.ibb.co/FqDSQF8/input.png"}' --output blurred-face.png
 ```
