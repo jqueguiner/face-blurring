@@ -58,9 +58,8 @@ def process():
         else:
             url = request.json["url"]
             download(url, input_path)
-        sigma=50
 
-        download(url, input_path)
+        sigma=50
        
         results = []
 
